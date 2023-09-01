@@ -33,29 +33,32 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
    <div class="row">
     <div class="col-md-6">
         <form action="createMeeting.php" method="POST">
-            <div class="form-group">
+            <div class="form-group mb-3">
                 <label >Subject:</label>
                 <input type="text" class="form-control" name="Subject">
             </div>
-            <div class="form-group">
+            <div class="form-group mb-3">
                 <label> Description:</label>
                 <textarea class="form-control" rows="3" cols="50" name="Description" placeholder="Write Something">
                 </textarea>
             </div>
-            <div class="form-group">
+            <div class="form-group mb-3">
                 <label >Date:</label>
                 <input type="date" class="form-control" name="Date" >
             </div>
-            <div class="form-group">
+            <div class="form-group mb-3">
                 <label >Time:</label>
                 <input type="text" class="form-control" name="Time">
             </div>
-            <div class="form-group">
+            <div class="form-group mb-3">
                 <label >Link:</label>
                 <input type="text" class="form-control" name="Link">
             </div>
-                
-            <input type="submit"class="btn-btn-sucess" name="create-task" value="create">
+            
+            <div class="form-group mb-3">
+                <input type="submit"class="btn btn-warning" name="create-task" value="Create Meeting">
+            </div>
+            
         </form>
     </div>
    </div> 

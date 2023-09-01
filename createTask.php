@@ -33,31 +33,33 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
    <div class="row">
     <div class="col-md-6">
         <form action="createTask.php" method="POST">
-            <div class="form-group">
+            <div class="form-group mb-3">
                 <label> EmployeeId</label>
                 <input type="text" class="form-control" name="EmployeeId" >
             </div>
 
-            <div class="form-group">
+            <div class="form-group mb-3">
                 <label> EmployeeName</label>
                 <input type="text" class="form-control" name="EmployeeName" >
             </div>
 
-            <div class="form-group">
+            <div class="form-group mb-3">
                 <label> Description:</label>
                 <textarea class="form-control" rows="3" cols="50" name="description" placeholder="Mention the task">
                 </textarea>
             </div>
-            <div class="form-group">
+            <div class="form-group mb-3">
                 <label >Start date:</label>
                 <input type="date" class="form-control" name="startDate" >
             </div>
-            <div class="form-group">
+            <div class="form-group mb-3">
                 <label >End date:</label>
                 <input type="date" class="form-control" name="endDate">
             </div>
-                
-            <input type="submit" class="btn btn-warning" name="create-task" value="Assign Task">
+
+            <div class="form-group mb-3">   
+                <input type="submit" class="btn btn-warning" name="create-task" value="Assign Task">
+            </div>
         </form>
     </div>
    </div> 
