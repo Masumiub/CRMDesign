@@ -1,0 +1,79 @@
+body{
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+  /*  background-image: url(bg.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;*/
+}
+#home_page{
+    background-color: white;
+    top: 25vh;
+    padding-left: 70px;
+    padding-right: 50px;
+    padding-top: 25px;
+    height: 25vh;
+    width: 40vw;
+}
+#login_home_page{
+    background-color: rgb(171, 0, 0);
+    top: 25vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 40vw;
+}
+
+/*.header {
+    
+     height: 80px;
+    background-color: rgb(171, 0, 0); /* navbar back-color
+    margin-left: 0px; 
+  }*/
+
+.sidebar{
+    background:  rgb(171, 0, 0);
+    backdrop-filter: blur(15px);
+    width:250px;
+    height:100vh;
+    position:fixed;
+    /* top: 80px; */
+    left:0;
+    overflow-y:auto;
+}
+
+.sidebar .menu{
+    width:100%;
+}
+
+.sidebar .menu .item{
+    position: relative;
+    cursor: pointer;
+}
+
+.sidebar .menu .item a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration:none;
+    display : block;
+    padding: 5px 30px;
+    line-height:60px;
+
+}
+
+.sidebar .menu .item a:hover{
+    background: white;
+    color: black;
+    transition: 0.3s ease;
+
+}
+
+.sidebar .menu .item i{
+    margin-right: 15px;
+}
+
+
+#rightSidebar{
+    margin-top: 10px;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+}
